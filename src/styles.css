@@ -25,7 +25,7 @@ form, h1, h2 ,h3, h4, h5 ,h6, p {
   background-color: #00ab80;
   background: linear-gradient(90deg, #00ab80, #00a980 50%, #026d6d);
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 }
 
 .logo {
@@ -33,6 +33,7 @@ form, h1, h2 ,h3, h4, h5 ,h6, p {
   width: 98px;
   display: flex;
   padding-left: 20px;
+  flex-grow: 0.2;
 }
 
 .logo img {
@@ -43,8 +44,8 @@ form, h1, h2 ,h3, h4, h5 ,h6, p {
 
 .search-bar {
   height: 100%;
-  flex: 4;
-  flex-grow: 4;
+  flex: 3;
+  flex-grow: 3;
   flex-shrink: 1;
   flex-basis: 0%;
 }
@@ -86,6 +87,59 @@ form, h1, h2 ,h3, h4, h5 ,h6, p {
   color: #ffffff;
   border-radius: 24px 0 0 24px;
   padding: 8px 10px 8px 40px;
+}
+
+.location-field {
+  flex: 40;
+  flex-grow: 40;
+  flex-shrink: 1;
+  flex-basis: 0%;
+}
+
+.location-field-input {
+  width: 100%;
+  position: relative;
+  color: #ffffff;
+}
+
+.location-field-input input {
+  outline: none;
+  width: 100%;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.17);
+  color: #ffffff;
+  border-radius: 0;
+  padding: 8px 10px 8px 40px;
+}
+
+.button-field {
+  flex: 10;
+  flex-grow: 10;
+  flex-shrink: 1;
+  flex-basis: 0%;
+}
+
+.button-field button {
+  outline: none;
+  width: 100%;
+  color: #ffffff;
+  background-color: #00AB80;
+  cursor: pointer;
+  border-radius: 0 24px 24px 0;
+  border: none;
+  padding: 8px 16px;
+}
+
+.user-options {
+  flex: 3;
+  flex-grow: 3;
+  flex-shrink: 1;
+  flex-basis: 0%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #ffffff;
+  font-weight: bolder;
 }
 
 .top-backdrop {
