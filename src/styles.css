@@ -1,3 +1,29 @@
+@media screen and (max-width: 1000px) {
+  .user-options {
+    display: none;
+  }
+
+  .phone-photo {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .categories-sidebar {
+    display: none;
+  }
+
+  .search-bar {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .top-backdrop {
+    display: none;
+  }
+}
+
 * {
   box-sizing: border-box;
 }
