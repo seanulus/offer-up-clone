@@ -16,16 +16,30 @@ form, h1, h2 ,h3, h4, h5 ,h6, p {
   margin: 0;
 }
 
+ul {
+  list-style: none;
+}
+
+li {
+  /* margin-bottom: 10%; */
+  padding: 10px;
+}
+
+li:hover {
+  background-color: #bcece0;
+}
+
 .flex {
   display: flex;
 }
 
 .main-header {
   height: 68px;
+  min-width: 100%;
   background-color: #00ab80;
   background: linear-gradient(90deg, #00ab80, #00a980 50%, #026d6d);
   display: flex;
-  /* justify-content: space-between; */
+  position: fixed;
 }
 
 .logo {
@@ -167,16 +181,103 @@ form, h1, h2 ,h3, h4, h5 ,h6, p {
 
 .app-download button {
   background-color: #FFA801;
-    display: inline-block;
-    font-size: 20px;
-    line-height: 25px;
-    font-weight: 600;
-    border-radius: 24px;
-    padding: 12px 30px;
-    margin-top: 23px;
-    margin-left: 20px;
-    border-style: none;
-    letter-spacing: 0.67px;
-    color: white;
-    cursor: pointer;
+  display: inline-block;
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 600;
+  border-radius: 24px;
+  padding: 12px 30px;
+  margin-top: 23px;
+  margin-left: 10%;
+  border-style: none;
+  letter-spacing: 0.67px;
+  color: white;
+  cursor: pointer;
+}
+
+.main-store-wrapper {
+  max-width: 100%;
+  display: flex;
+}
+
+.categories-sidebar {
+  max-width: 20%;
+  height: 100%;
+  margin-top: 3%;
+  background-color: #ffffff;;
+  text-align: justify;
+  float: left;
+  position: static;
+}
+
+.categories-sidebar h5 {
+  margin-bottom: 7%;
+  padding-left: 17%;
+}
+
+.sale-items-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 5px;
+  justify-content: center;
+  grid-auto-flow: dense;
+  width: 80%;
+  height: 100%;
+  background-color: #ffffff;
+  padding: 3% 0 0 5%;
+}
+
+.sale-item {
+  overflow: hidden;
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+  width: 191px;
+  margin-top: 10px;
+}
+
+.item-description {
+  padding: 10px;
+}
+
+.item-description:hover {
+  background-color: #eaecec;
+}
+
+.lower-app-download {
+  height: 340px;
+  display: flex;
+}
+
+.get-app-info {
+  height: 340px;
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  color: #ffffff;
+  background-color: #00ab80;
+  background: linear-gradient(90deg, #00ab80, #00a980 50%, #026d6d);
+}
+
+.get-app-photo {
+  height: 340px;
+  width: 40%;
+}
+
+.get-app-photo img {
+  height: 340px;
+  width: 100%;
+}
+
+.google {
+  width: 141px;
+  height: 42px;
+  margin-top: 10px;
+}
+
+.apple {
+  width: 141px;
+  height: 52px;
 }
