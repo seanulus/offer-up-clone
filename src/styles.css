@@ -143,8 +143,40 @@ form, h1, h2 ,h3, h4, h5 ,h6, p {
 }
 
 .top-backdrop {
-  height: 311px;
+  height: 500px;
   padding: 68px;
   background-color: #00ab80;
   background: linear-gradient(90deg, #00ab80, #00a980 50%, #026d6d);
+}
+
+.backdrop-container {
+  height: 400px;
+  justify-content: center;
+}
+
+.phone-photo img{
+  height: 400px;
+}
+
+.app-download {
+  height: 300px;
+  color: #ffffff;
+  padding-left: 3%;
+  margin-top: 8%;
+}
+
+.app-download button {
+  background-color: #FFA801;
+    display: inline-block;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 600;
+    border-radius: 24px;
+    padding: 12px 30px;
+    margin-top: 23px;
+    margin-left: 20px;
+    border-style: none;
+    letter-spacing: 0.67px;
+    color: white;
+    cursor: pointer;
 }
