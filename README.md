@@ -1,14 +1,17 @@
-# JS Template Repo for Epicodus
+# Website Clone of OfferUp
 
 ## By Sean McDermott
 
 # Description
-This is a template directory to make things go quicker in the morning.
+This is the CSS/Design Week One code review. Our goal was to clone a website.
+
+This is the original website.
+![Screenshot](img/Offer-up-original.png)
+This is a website clone of OfferUp.
+![Screenshot](img/Offer-up-clone.png)
 
 # Specifications
-* The program will hold the necessary files and folders for easy cloning
-  * Input Example: **Example**
-  * Output Example: **Example**
+* This is a clone of the Website OfferUp. It is purely for design purposes and contains no functionality other than media queries to change the appearance of the screen as it gets smaller.
 
 # Setup Requirements
 * Clone this repository
