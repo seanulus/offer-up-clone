@@ -21,12 +21,7 @@ ul {
 }
 
 li {
-  /* margin-bottom: 10%; */
   padding: 10px;
-}
-
-li:hover {
-  background-color: #bcece0;
 }
 
 .flex {
@@ -215,6 +210,10 @@ li:hover {
   padding-left: 17%;
 }
 
+.hover-sidebar > li:hover {
+  background-color: #bcece0;
+}
+
 .sale-items-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -280,4 +279,69 @@ li:hover {
 .apple {
   width: 141px;
   height: 52px;
+}
+
+.search-by-city {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5%;
+}
+
+.city-list-container {
+  padding: 3%;
+  height: 324px;
+  width: 100%;
+}
+
+.city-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.city-list li {
+  padding: 5px;
+}
+
+.footer {
+  height: 151px;
+  width: 100%;
+  background:url('https://static.offerup.com/web/images/footer-cover.cce0650b.jpg');
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.admin-area {
+  display: flex;
+  flex-wrap: wrap;
+  color: #ffffff;
+}
+
+.admin-area p {
+  padding: 0 20px 30px 20px;
+}
+
+.social-media i {
+  margin-top: 10px;
+  color: #ffffff;
+}
+
+.copyright p {
+  font-size: 12px;
+  color: #ffffff;
+}
+
+.dot {
+  height: 35px;
+  width: 35px;
+  background-color: #0a4e4c;
+  border-radius: 50%;
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 30px;
 }
