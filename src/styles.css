@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+}
+
+div {
+  display: block;
+}
+
+body {
+  font-size: 16px;
+  line-height: 24px;
+  font-family: 'Source Sans Pro',sans-serif;
+}
+
+form, h1, h2 ,h3, h4, h5 ,h6, p {
+  margin: 0;
+}
+
+.flex {
+  display: flex;
+}
+
+.main-header {
+  height: 68px;
+  background-color: #00ab80;
+  background: linear-gradient(90deg, #00ab80, #00a980 50%, #026d6d);
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 68px;
+  width: 98px;
+  display: flex;
+  padding-left: 20px;
+}
+
+.logo img {
+  height: 28px;
+  width: 98px;
+  align-self: center;
+}
+
+.search-bar {
+  height: 100%;
+  flex: 4;
+  flex-grow: 4;
+  flex-shrink: 1;
+  flex-basis: 0%;
+}
+
+.inner-search-bar {
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.align-center {
+  max-width: 600px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.search-field {
+  flex: 50;
+  flex-grow: 50;
+  flex-shrink: 1;
+  flex-basis: 0%;
+  border-right: 2px solid transparent;
+}
+
+.search-field-input {
+  width: 100%;
+  position: relative;
+  color: #ffffff;
+}
+
+.search-field-input input {
+  outline: none;
+  width: 100%;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.17);
+  color: #ffffff;
+  border-radius: 24px 0 0 24px;
+  padding: 8px 10px 8px 40px;
+}
+
+.top-backdrop {
+  height: 311px;
+  padding: 68px;
+  background-color: #00ab80;
+  background: linear-gradient(90deg, #00ab80, #00a980 50%, #026d6d);
+}
